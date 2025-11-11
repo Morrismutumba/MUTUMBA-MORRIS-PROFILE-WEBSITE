@@ -1,0 +1,117 @@
+/* ======== Global Styles ======== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #004aad;
+    text-align: center;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======== Navigation Bar ======== */
+nav {
+    background-color: #004aad;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* ======== Page Layout ======== */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* ======== Tables ======== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004aad;
+    color: white;
+}
+
+/* ======== Forms ======== */
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #004aad;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #003080;
+}
+
+/* ======== Gallery ======== */
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+}
+
+.gallery {
+    text-align: center;
+}
+
+/* ======== Footer ======== */
+footer {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
